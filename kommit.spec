@@ -31,4 +31,16 @@ Graphical Git Client
 
 %find_lang %{name} --with-man --all-name
 
-%files
+%files -f %{name}.lang
+%{_bindir}/kommit*
+%{_libdir}/libkommit*
+%{_libdir}/qt5/plugins/kf5/kfileitemaction/kommititemaction.so
+%{_libdir}/qt5/plugins/kf5/overlayicon/kommitoverlayplugin.so
+%{_datadir}/applications/org.kde.kommit.desktop
+%{_datadir}/applications/org.kde.kommit.diff.desktop
+%{_datadir}/applications/org.kde.kommit.merge.desktop
+%{_iconsdir}/hicolor/*x*/apps/kommit.png
+%{_iconsdir}/hicolor/scalable/actions/*
+%{_datadir}/metainfo/org.kde.kommit.appdata.xml
+%{_datadir}/qlogging-categories5/kommit.categories
+%doc %{_datadir}/doc/HTML/*/kommit/*
