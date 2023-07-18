@@ -40,6 +40,7 @@ Graphical Git Client
 %{_datadir}/applications/org.kde.kommit.diff.desktop
 %{_datadir}/applications/org.kde.kommit.merge.desktop
 %{_iconsdir}/hicolor/*x*/apps/kommit.png
+%{_iconsdir}/hicolor/scalable/apps/kommit.svg
 %{_iconsdir}/hicolor/scalable/actions/*
 %{_datadir}/metainfo/org.kde.kommit.appdata.xml
 %{_datadir}/qlogging-categories5/kommit.categories
