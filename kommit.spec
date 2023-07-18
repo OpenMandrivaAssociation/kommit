@@ -21,7 +21,6 @@ Graphical Git Client
 %prep
 %autosetup -p1
 
-%build
 %cmake_kde5
 
 %build
