@@ -22,6 +22,7 @@ BuildRequires:  cmake(KF6DBusAddons)
 BuildRequires:  cmake(KF6DocTools)
 BuildRequires:  cmake(KF6KIO)
 BuildRequires:  cmake(KF6TextEditor)
+BuildRequires:  cmake(KF6TextWidgets)
 BuildRequires:  cmake(Qt6Test)
 BuildRequires:  cmake(DolphinVcs) >= 24.01.80
 BuildRequires:  pkgconfig(libgit2)
