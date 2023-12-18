@@ -56,6 +56,6 @@ Graphical Git Client
 %{_iconsdir}/hicolor/scalable/apps/kommit.svg
 %{_iconsdir}/hicolor/scalable/actions/*
 %{_datadir}/metainfo/org.kde.kommit.appdata.xml
-%{_libdir}/lib64/plugins/dolphin/vcs/kommitdolphinplugin.so
+%{_libdir}/plugins/dolphin/vcs/kommitdolphinplugin.so
 %{_datadir}/qlogging-categories6/kommit.categories
 %doc %{_datadir}/doc/HTML/*/kommit/*
