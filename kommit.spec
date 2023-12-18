@@ -21,7 +21,7 @@ BuildRequires:  cmake(Qt5Test)
 Graphical Git Client
 
 %prep
-%autosetup -p1
+%autosetup -n %{name}-v%{version} -p1
 
 %cmake_kde5
 
