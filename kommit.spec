@@ -49,8 +49,8 @@ Graphical Git Client
 %files -f %{name}.lang
 %{_bindir}/kommit*
 %{_libdir}/libkommit*
-%{_libdir}/qt5/plugins/kf5/kfileitemaction/kommititemaction.so
-%{_libdir}/qt5/plugins/kf5/overlayicon/kommitoverlayplugin.so
+#{_libdir}/qt5/plugins/kf5/kfileitemaction/kommititemaction.so
+#{_libdir}/qt5/plugins/kf5/overlayicon/kommitoverlayplugin.so
 %{_datadir}/applications/org.kde.kommit.desktop
 %{_datadir}/applications/org.kde.kommit.diff.desktop
 %{_datadir}/applications/org.kde.kommit.merge.desktop
