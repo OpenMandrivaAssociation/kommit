@@ -58,5 +58,5 @@ Graphical Git Client
 %{_iconsdir}/hicolor/scalable/apps/kommit.svg
 %{_iconsdir}/hicolor/scalable/actions/*
 %{_datadir}/metainfo/org.kde.kommit.appdata.xml
-%{_datadir}/qlogging-categories5/kommit.categories
+#{_datadir}/qlogging-categories5/kommit.categories
 %doc %{_datadir}/doc/HTML/*/kommit/*
