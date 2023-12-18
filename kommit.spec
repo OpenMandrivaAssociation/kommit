@@ -1,10 +1,12 @@
 Name:           kommit
-Version:        1.0.2
+Version:        1.3.1
 Release:        1
 Summary:        Graphical Git Client
 License:        GPL-3.0-only
 URL:            https://apps.kde.org/kommit
-Source0:        https://download.kde.org/stable/%{name}/%{name}-%{version}.tar.xz
+# Looks like kde source for kommit is not updated
+#Source0:        https://download.kde.org/stable/%{name}/%{name}-%{version}.tar.xz
+Source0:        https://invent.kde.org/sdk/kommit/-/archive/v%{version}/kommit-v%{version}.tar.bz2
 
 BuildRequires:  cmake(ecm)
 BuildRequires:  cmake
