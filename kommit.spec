@@ -8,6 +8,7 @@ URL:            https://apps.kde.org/kommit
 #Source0:        https://download.kde.org/stable/%{name}/%{name}-%{version}.tar.xz
 Source0:        https://invent.kde.org/sdk/kommit/-/archive/v%{version}/kommit-v%{version}.tar.bz2
 
+BuildRequires:  appstream
 BuildRequires:  cmake(Qt6)
 BuildRequires:  cmake(Qt6Widgets)
 BuildRequires:  cmake(Qt6Core)
@@ -29,7 +30,9 @@ Graphical Git Client
 %prep
 %autosetup -n %{name}-v%{version} -p1
 
-%cmake
+%cmake \
+        -DBUILD_WITH_QT6:BOOL=ON \
+        -G Ninja
 
 %build
 %ninja -C build
