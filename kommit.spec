@@ -8,15 +8,19 @@ URL:            https://apps.kde.org/kommit
 #Source0:        https://download.kde.org/stable/%{name}/%{name}-%{version}.tar.xz
 Source0:        https://invent.kde.org/sdk/kommit/-/archive/v%{version}/kommit-v%{version}.tar.bz2
 
+BuildRequires:  cmake(Qt6)
+BuildRequires:  cmake(Qt6Widgets)
+BuildRequires:  cmake(Qt6Core)
+BuildRequires:  cmake(Qt6DBus)
 BuildRequires:  cmake(ecm)
 BuildRequires:  cmake
-BuildRequires:  cmake(KF5Crash)
-BuildRequires:  cmake(KF5DBusAddons)
-BuildRequires:  cmake(KF5DocTools)
-BuildRequires:  cmake(KF5KIO)
-BuildRequires:  cmake(KF5TextEditor)
-BuildRequires:  cmake(Qt5Test)
-BuildRequires:  cmake(DolphinVcs)
+BuildRequires:  cmake(KF6Crash)
+BuildRequires:  cmake(KF6DBusAddons)
+BuildRequires:  cmake(KF6DocTools)
+BuildRequires:  cmake(KF6KIO)
+BuildRequires:  cmake(KF6TextEditor)
+BuildRequires:  cmake(Qt6Test)
+BuildRequires:  cmake(DolphinVcs) >= 24.01.80
 BuildRequires:  pkgconfig(libgit2)
 
 %description
@@ -25,7 +29,7 @@ Graphical Git Client
 %prep
 %autosetup -n %{name}-v%{version} -p1
 
-%cmake_kde5
+%cmake
 
 %build
 %ninja -C build
