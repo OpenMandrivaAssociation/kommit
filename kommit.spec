@@ -16,6 +16,7 @@ BuildRequires:  cmake(KF5DocTools)
 BuildRequires:  cmake(KF5KIO)
 BuildRequires:  cmake(KF5TextEditor)
 BuildRequires:  cmake(Qt5Test)
+BuildRequires:  cmake(DolphinVcs)
 BuildRequires:  pkgconfig(libgit2)
 
 %description
