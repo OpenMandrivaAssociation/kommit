@@ -12,6 +12,7 @@ BuildRequires:  appstream
 BuildRequires:  cmake(Qt6)
 BuildRequires:  cmake(Qt6Widgets)
 BuildRequires:  cmake(Qt6Core)
+BuildRequires:  cmake(Qt6Concurrent)
 BuildRequires:  cmake(Qt6DBus)
 BuildRequires:  cmake(ecm)
 BuildRequires:  cmake
@@ -23,6 +24,7 @@ BuildRequires:  cmake(KF6TextEditor)
 BuildRequires:  cmake(Qt6Test)
 BuildRequires:  cmake(DolphinVcs) >= 24.01.80
 BuildRequires:  pkgconfig(libgit2)
+BuildRequires:	qt6-qtbase-theme-gtk3
 
 %description
 Graphical Git Client
