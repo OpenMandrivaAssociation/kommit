@@ -58,4 +58,3 @@ Graphical Git Client
 %{_datadir}/metainfo/org.kde.kommit.appdata.xml
 %{_libdir}/plugins/dolphin/vcs/kommitdolphinplugin.so
 %{_datadir}/qlogging-categories6/kommit.categories
-%doc %{_datadir}/doc/HTML/*/kommit/*
