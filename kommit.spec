@@ -30,6 +30,13 @@ BuildRequires:	qt6-qtbase-theme-gtk3
 %description
 Graphical Git Client
 
+%package devel
+Summary:        Development environment for %name
+Requires:       %{name} = %{version}-%{release}
+	
+%description devel
+Development package for kommit.
+
 %prep
 %autosetup -n %{name}-v%{version} -p1
 
@@ -57,3 +64,7 @@ Graphical Git Client
 %{_datadir}/metainfo/org.kde.kommit.appdata.xml
 %{_libdir}/plugins/dolphin/vcs/kommitdolphinplugin.so
 %{_datadir}/qlogging-categories6/kommit.categories
+
+%files devel
+%doc %{_datadir}/doc/HTML/
+%{_includedir}/*
