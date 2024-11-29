@@ -4,9 +4,8 @@ Release:        1
 Summary:        Graphical Git Client
 License:        GPL-3.0-only
 URL:            https://apps.kde.org/kommit
-# Looks like kde source for kommit is not updated
-#Source0:        https://download.kde.org/stable/%{name}/%{name}-%{version}.tar.xz
-Source0:        https://invent.kde.org/sdk/kommit/-/archive/v%{version}/kommit-v%{version}.tar.bz2
+Source0:        https://download.kde.org/stable/%{name}/%{name}-%{version}.tar.xz
+#Source0:        https://invent.kde.org/sdk/kommit/-/archive/v%{version}/kommit-v%{version}.tar.bz2
 
 BuildRequires:  appstream
 BuildRequires:  cmake(Qt6)
