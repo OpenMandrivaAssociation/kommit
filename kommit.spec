@@ -4,7 +4,7 @@ Release:        1
 Summary:        Graphical Git Client
 License:        GPL-3.0-only
 URL:            https://apps.kde.org/kommit
-Source0:        https://download.kde.org/stable/%{name}/%{name}-%{version}.tar.xz
+Source0:        https://download.kde.org/stable/%{name}/%{name}-v%{version}.tar.xz
 #Source0:        https://invent.kde.org/sdk/kommit/-/archive/v%{version}/kommit-v%{version}.tar.bz2
 
 BuildRequires:  appstream
