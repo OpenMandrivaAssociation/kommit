@@ -1,6 +1,6 @@
 Name:           kommit
 Version:        1.7.1
-Release:        1
+Release:        2
 Summary:        Graphical Git Client
 License:        GPL-3.0-only
 URL:            https://apps.kde.org/kommit
